@@ -31,8 +31,8 @@ void drawTree()
 void drawTreeHelper(float startX, float startY, int iter, int maxIter, float angle){
   if(iter < maxIter){
     // Calculate new angles and start positions for recursive calls
-    float rightBranchAngle = angle - PI / 6;
-    float leftBranchAngle = angle + PI / 6;
+    float rightBranchAngle = angle - PI / 5;
+    float leftBranchAngle = angle + PI / 5;
     float randomChangeR = map(random(1), 0, 1, -PI / 10, PI / 10);
     float randomChangeL = map(random(1), 0, 1, -PI / 10, PI / 10);
     rightBranchAngle += randomChangeR;
