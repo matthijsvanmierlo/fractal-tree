@@ -14,7 +14,8 @@ void keyPressed(){
  System.out.println("NEXT");
  clear();
  redraw();
- //saveFrame("fractal-tree-####.jpg");
+ // Uncomment line below if you want to save individual frames on keyPressed()
+ // saveFrame("fractal-tree-####.jpg");
 }
 
 void drawTree()
