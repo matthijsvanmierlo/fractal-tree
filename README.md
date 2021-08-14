@@ -1,6 +1,6 @@
 # Fractal Trees in Processing
 
-![Fractal Tree Picture 1](/Fractal-Tree.png)
+![Fractal Tree Picture 1](/Fractal-Trees.png)
 
 ## Basic Description
 
